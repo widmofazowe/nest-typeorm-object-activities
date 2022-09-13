@@ -1,6 +1,6 @@
 {
   "name": "nest-typeorm-object-activites",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NestJS TypeORM Object Activities Tracking",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
