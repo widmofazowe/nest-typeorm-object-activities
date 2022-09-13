@@ -1,4 +1,4 @@
-import { Column, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, CreateDateColumn, PrimaryGeneratedColumn } from 'typeorm';
 
 export abstract class Activity {
   @PrimaryGeneratedColumn('uuid')
@@ -12,4 +12,7 @@ export abstract class Activity {
 
   @Column()
   sourceObjectId: string;
+
+  @CreateDateColumn()
+  createdDate: Date;
 }
