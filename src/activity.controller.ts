@@ -3,7 +3,7 @@ import { ActivityService } from './activity.service';
 import { AddActivityDto } from './add-activity.dto';
 
 export const getActivityController = (baseUrl: string): any => {
-  @Controller(`/activity/${baseUrl}/comment`)
+  @Controller(`/activity/${baseUrl}/activity`)
   class ActivityController {
     constructor(private activityService: ActivityService) {}
 
