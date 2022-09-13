@@ -27,7 +27,7 @@ After that we should add entity to imports in our module as well as add Activity
 imports: [TypeOrmModule.forFeature([User, UserActivity]), ActivityModule.forFeature(UserActivity, 'user')],
 ```
 
-No we can use new endpoints to store and list all activities for particular object with replacing <related object id> with user id:
+No we can use new endpoints to store and list all activities for particular object with replacing `<related object id>` with user id:
 
 ```
 ### create activity
