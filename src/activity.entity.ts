@@ -4,7 +4,7 @@ export abstract class Activity {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  @Column()
+  @Column({ nullable: true })
   authorId: string;
 
   @Column()
