@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/widmofazowe/nest-typeorm-object-activites#readme",
   "dependencies": {
-    "class-validator": "^0.13.2",
+    "class-validator": "^0.14.0",
     "debug": "^4.3.4",
     "express": "^4.18.1",
     "lodash": "^4.17.21"
